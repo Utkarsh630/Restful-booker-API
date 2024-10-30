@@ -26,3 +26,17 @@
 2024-10-30 18:03:16 INFO  tests.BookingTest - Booking retrieved successfully and verified status code
 2024-10-30 18:03:18 INFO  tests.BookingTest - Deleting booking details for Booking ID: 1219
 2024-10-30 18:03:18 INFO  tests.BookingTest - Booking with 1219 deleted successfully
+2024-10-30 18:18:02 INFO  utils.ConfigLoader - Reading property file
+2024-10-30 18:18:02 INFO  utils.ConfigLoader - Base URL found: https://restful-booker.herokuapp.com
+2024-10-30 18:18:02 INFO  utils.ConfigLoader - username found in Configuration file
+2024-10-30 18:18:02 INFO  utils.ConfigLoader - password found in Configuration file
+2024-10-30 18:18:02 INFO  tests.BookingTest - Generating Token
+2024-10-30 18:18:05 INFO  tests.BookingTest - Token generated and request returned 200 code
+2024-10-30 18:18:05 INFO  tests.BookingTest - Creating a booking with data: models.Booking@7adff6cb
+2024-10-30 18:18:07 INFO  tests.BookingTest - Booking created successfully with status code 200
+2024-10-30 18:18:07 INFO  tests.BookingTest - Booking created successfully with Booking ID: 3600
+2024-10-30 18:18:09 INFO  tests.BookingTest - Booking details updated for ID 3600 : {"firstname":"Todd","lastname":"Johnston","totalprice":205377989,"depositpaid":false,"bookingdates":{"checkin":"2024-11-04","checkout":"2024-11-04"},"additionalNeeds":"French Toast"}
+2024-10-30 18:18:11 INFO  tests.BookingTest - Retrieving Booking by ID: 3600
+2024-10-30 18:18:11 INFO  tests.BookingTest - Booking retrieved successfully and verified status code
+2024-10-30 18:18:13 INFO  tests.BookingTest - Deleting booking details for Booking ID: 3600
+2024-10-30 18:18:13 INFO  tests.BookingTest - Booking with 3600 deleted successfully
