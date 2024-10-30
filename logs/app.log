@@ -1,0 +1,28 @@
+2024-10-30 18:02:43 INFO  utils.ConfigLoader - Reading property file
+2024-10-30 18:02:43 INFO  utils.ConfigLoader - Base URL found: https://restful-booker.herokuapp.com
+2024-10-30 18:02:43 INFO  utils.ConfigLoader - username found in Configuration file
+2024-10-30 18:02:43 INFO  utils.ConfigLoader - password found in Configuration file
+2024-10-30 18:02:43 INFO  tests.BookingTest - Generating Token
+2024-10-30 18:02:45 INFO  tests.BookingTest - Token generated and request returned 200 code
+2024-10-30 18:02:45 INFO  tests.BookingTest - Creating a booking with data: models.Booking@72a0a60d
+2024-10-30 18:02:47 INFO  tests.BookingTest - Booking created successfully with status code 200
+2024-10-30 18:02:47 INFO  tests.BookingTest - Booking created successfully with Booking ID: 1015
+2024-10-30 18:02:49 INFO  tests.BookingTest - Booking details updated for ID 1015 : {"firstname":"Kirk","lastname":"Bernier","totalprice":309794339,"depositpaid":true,"bookingdates":{"checkin":"2024-11-01","checkout":"2024-11-10"},"additionalNeeds":"Teriyaki Chicken Donburi"}
+2024-10-30 18:02:51 INFO  tests.BookingTest - Retrieving Booking by ID: 1015
+2024-10-30 18:02:51 INFO  tests.BookingTest - Booking retrieved successfully and verified status code
+2024-10-30 18:02:53 INFO  tests.BookingTest - Deleting booking details for Booking ID: 1015
+2024-10-30 18:02:53 INFO  tests.BookingTest - Booking with 1015 deleted successfully
+2024-10-30 18:03:07 INFO  utils.ConfigLoader - Reading property file
+2024-10-30 18:03:07 INFO  utils.ConfigLoader - Base URL found: https://restful-booker.herokuapp.com
+2024-10-30 18:03:07 INFO  utils.ConfigLoader - username found in Configuration file
+2024-10-30 18:03:07 INFO  utils.ConfigLoader - password found in Configuration file
+2024-10-30 18:03:07 INFO  tests.BookingTest - Generating Token
+2024-10-30 18:03:10 INFO  tests.BookingTest - Token generated and request returned 200 code
+2024-10-30 18:03:10 INFO  tests.BookingTest - Creating a booking with data: models.Booking@4d8522ff
+2024-10-30 18:03:12 INFO  tests.BookingTest - Booking created successfully with status code 200
+2024-10-30 18:03:12 INFO  tests.BookingTest - Booking created successfully with Booking ID: 1219
+2024-10-30 18:03:14 INFO  tests.BookingTest - Booking details updated for ID 1219 : {"firstname":"Alonso","lastname":"Schmidt","totalprice":702723984,"depositpaid":false,"bookingdates":{"checkin":"2024-11-08","checkout":"2024-11-03"},"additionalNeeds":"Philadelphia Maki"}
+2024-10-30 18:03:16 INFO  tests.BookingTest - Retrieving Booking by ID: 1219
+2024-10-30 18:03:16 INFO  tests.BookingTest - Booking retrieved successfully and verified status code
+2024-10-30 18:03:18 INFO  tests.BookingTest - Deleting booking details for Booking ID: 1219
+2024-10-30 18:03:18 INFO  tests.BookingTest - Booking with 1219 deleted successfully
