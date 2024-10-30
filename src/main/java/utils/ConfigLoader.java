@@ -48,4 +48,27 @@ public class ConfigLoader
         }
     }
 
+    public static String getUsername(){
+        String username = properties.getProperty("username");
+        if (username!=null){
+            logger.info("username found in Configuration file");
+            return username;
+        }else {
+            logger.error("username not specified in the Config.properties file.");
+            throw new RuntimeException("username not specified in the Config.properties file.");
+        }
+    }
+
+    public static String getPassword(){
+        String password = properties.getProperty("password");
+        if(password!=null){
+            logger.info("password found in Configuration file");
+            return password;
+        }else{
+            logger.error("password not specified in the config file");
+            throw new RuntimeException("password not specified in the Config.properties file.");
+
+        }
+    }
+
 }
